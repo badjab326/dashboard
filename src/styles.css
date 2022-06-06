@@ -1,3 +1,7 @@
+html {
+background-color: black;
+}
+
 .dashboard {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -9,18 +13,15 @@
     grid-row-end: 3;
     display:flex;
     border-radius: 10px;
-    box-shadow: 1px 1px 10px #ddd,
-                -1px -1px 10px #ddd,
-                1px -1px 10px #ddd,
-                -1px 1px 10px #ddd;
     padding: 20px;
     margin: 20px;
     box-sizing: border-box;
     overflow: auto;
-    background: gray;
-    float: left;
+    background: rgb(7,1,108);
+    background: linear-gradient(27deg, rgba(7,1,108,1) 0%, rgba(9,9,121,1) 0%, rgba(2,83,99,1) 100%);
     text-align: left;
     align-items: center;
+    color: white;
   }
 
   .navlinks {
@@ -34,43 +35,37 @@
   .reviews {
     text-align: center;
     border-radius: 10px;
-    box-shadow: 1px 1px 10px #ddd,
-                -1px -1px 10px #ddd,
-                1px -1px 10px #ddd,
-                -1px 1px 10px #ddd;
     padding: 20px;
     margin: 20px;
     box-sizing: border-box;
     overflow: auto;
-    background: gray;
+    background: rgb(7,1,108);
+    background: linear-gradient(27deg, rgba(7,1,108,1) 0%, rgba(9,9,121,1) 0%, rgba(2,83,99,1) 100%);
+    color: white;
   }
 
   .rating {
     text-align: center;
     border-radius: 10px;
-    box-shadow: 1px 1px 10px #ddd,
-                -1px -1px 10px #ddd,
-                1px -1px 10px #ddd,
-                -1px 1px 10px #ddd;
     padding: 20px;
     margin: 20px;
     box-sizing: border-box;
     overflow: auto;
-    background: gray;
+    background: rgb(7,1,108);
+    background: linear-gradient(27deg, rgba(7,1,108,1) 0%, rgba(9,9,121,1) 0%, rgba(2,83,99,1) 100%);
+    color: white;
   }
 
   .analysis {
     text-align: center;
     border-radius: 10px;
-    box-shadow: 1px 1px 10px #ddd,
-                -1px -1px 10px #ddd,
-                1px -1px 10px #ddd,
-                -1px 1px 10px #ddd;
     padding: 20px;
     margin: 20px;
     box-sizing: border-box;
     overflow: auto;
-    background: gray;
+    background: rgb(7,1,108);
+    background: linear-gradient(27deg, rgba(7,1,108,1) 0%, rgba(9,9,121,1) 0%, rgba(2,83,99,1) 100%);
+    color: white;
   }
 
   .visitors {
@@ -78,15 +73,13 @@
     grid-column-end: 5;
     text-align: left;
     border-radius: 10px;
-    box-shadow: 1px 1px 10px #ddd,
-                -1px -1px 10px #ddd,
-                1px -1px 10px #ddd,
-                -1px 1px 10px #ddd;
     padding: 20px;
     margin: 20px;
     box-sizing: border-box;
     overflow: hidden;
-    background: gray;
+    background: rgb(7,1,108);
+    background: linear-gradient(27deg, rgba(7,1,108,1) 0%, rgba(9,9,121,1) 0%, rgba(2,83,99,1) 100%);
+    color: white;
   }
 
   .weirdBox {
