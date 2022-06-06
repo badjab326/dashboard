@@ -1,0 +1,91 @@
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    width: 10%;
+    height: 45vw;
+    display:flex;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #ddd,
+                -1px -1px 10px #ddd,
+                1px -1px 10px #ddd,
+                -1px 1px 10px #ddd;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    background: gray;
+    float: left;
+  }
+
+  .navlinks {
+    list-style-type: none;
+  }
+
+  .reviews {
+    width: 15%;
+    height: 30vh;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #ddd,
+                -1px -1px 10px #ddd,
+                1px -1px 10px #ddd,
+                -1px 1px 10px #ddd;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    background: gray;
+  }
+
+  .rating {
+    width: 15%;
+    height: 30vh;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #ddd,
+                -1px -1px 10px #ddd,
+                1px -1px 10px #ddd,
+                -1px 1px 10px #ddd;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    background: gray;
+  }
+
+  .analysis {
+    width: 15%;
+    height: 30vh;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #ddd,
+                -1px -1px 10px #ddd,
+                1px -1px 10px #ddd,
+                -1px 1px 10px #ddd;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    background: gray;
+  }
+
+  .visitors {
+    width: 60%;
+    height: 50vh;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #ddd,
+                -1px -1px 10px #ddd,
+                1px -1px 10px #ddd,
+                -1px 1px 10px #ddd;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: gray;
+  }
