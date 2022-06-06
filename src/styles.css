@@ -1,13 +1,12 @@
 .dashboard {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .navbar {
-    width: 10%;
-    height: 45vw;
+    grid-row-start: 1;
+    grid-row-end: 3;
     display:flex;
     border-radius: 10px;
     box-shadow: 1px 1px 10px #ddd,
@@ -20,15 +19,19 @@
     overflow: auto;
     background: gray;
     float: left;
+    text-align: left;
+    align-items: center;
   }
 
   .navlinks {
     list-style-type: none;
   }
 
+  li {
+      margin-bottom: 20%;
+  }
+
   .reviews {
-    width: 15%;
-    height: 30vh;
     text-align: center;
     border-radius: 10px;
     box-shadow: 1px 1px 10px #ddd,
@@ -43,8 +46,6 @@
   }
 
   .rating {
-    width: 15%;
-    height: 30vh;
     text-align: center;
     border-radius: 10px;
     box-shadow: 1px 1px 10px #ddd,
@@ -59,8 +60,6 @@
   }
 
   .analysis {
-    width: 15%;
-    height: 30vh;
     text-align: center;
     border-radius: 10px;
     box-shadow: 1px 1px 10px #ddd,
@@ -75,8 +74,8 @@
   }
 
   .visitors {
-    width: 60%;
-    height: 50vh;
+    grid-column-start: 2;
+    grid-column-end: 5;
     text-align: left;
     border-radius: 10px;
     box-shadow: 1px 1px 10px #ddd,
@@ -88,4 +87,19 @@
     box-sizing: border-box;
     overflow: hidden;
     background: gray;
+  }
+
+  .weirdBox {
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    width: 95%;
+    height: 25vh;
+    text-align: left;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: white;
   }
